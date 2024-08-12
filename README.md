@@ -1,6 +1,6 @@
 # Prompt2Fashion: An automatically generated fashion dataset
 
-This repository contains the dataset created with the methodology presented in our paper **"Automatic Generation of Fashion Images using Prompting in Generative Machine Learning Models"** (https://github.com/georgiarg/AutoFashion.git).
+This repository contains the dataset created with the methodology presented in the paper **"Automatic Generation of Fashion Images using Prompting in Generative Machine Learning Models"** (https://github.com/georgiarg/AutoFashion.git).
 
 
 ## Abstract
@@ -14,6 +14,27 @@ The scalability of production facilitated by LLMs and Diffusion Models ensures a
 Given that AI is making significant inroads into creative fields, it is crucial that human oversight regulates generated content. After all, fashion image synthesis frameworks are ultimately designed for experts in the field, such as fashion designers. These AI-generated images are likely to serve as preliminary steps in the creative process rather than the final product. Consequently, it is essential for AI-generated fashion content to be evaluated by individuals with domain expertise. To this end, in this work, we not only offer an open, automatically generated dataset for creatives and engineers but also emphasize the importance of involving experts in the evaluation process, based not only on the aforementioned notions but also on experimental findings.
 
 ![350691125-92e1aa8f-2e13-4c6c-8acd-719af86bd3ff](https://github.com/user-attachments/assets/578c238a-134a-4466-a6db-8228140fcba5)
+## Folder Structure 
+
+- Mistral: This folder contains the images and descriptions generated using the Mistral-7B model. There are specific subfolders for each method used (zero-shot, few-shot, chain-of-thought, RAG with PDFs and RAG with BLOGs).
+- Falcon: This folder contains the images and descriptions generated using the Falcon-7B model. There are specific subfolders for each method used (zero-shot, few-shot, chain-of-thought, RAG with PDFs and RAG with BLOGs).
+- Evaluation: This folder includes surveys and their results, which are crucial for filtering and assessing the generated fashion images. The surveys were designed to gather human evaluations of the images, focusing on their relevance, appeal, and adherence to fashion trends. The results can be used by researchers to filter and analyze the dataset based on these evaluations.
+
+## Evaluation Results
+### Key Findings
+
+As presented in the paper **"Automatic Generation of Fashion Images using Prompting in Generative Machine Learning Models"** the results of the two experiments can be summarized below:
+
+Images Evaluation
+![1stexp](https://github.com/user-attachments/assets/f29bf462-797c-49a8-ae46-539ec517a2bf)
+
+Descriptions Evaluation
+![2ndexp](https://github.com/user-attachments/assets/d6c796f7-953b-494f-a16c-04b7cb82de5f)
+
+
+### Detailed Results
+
+For more detailed evaluation results, including individual survey responses and statistical analyses, please refer to the Evaluation folder. This folder contains the raw survey data, as well as summary reports that provide deeper insights into how the generated images were perceived by human evaluators.
 
 ## Citation
 
