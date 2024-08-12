@@ -36,6 +36,21 @@ Descriptions Evaluation
 
 For more detailed evaluation results, including individual survey responses and statistical analyses, please refer to the Evaluation folder. This folder contains the raw survey data, as well as summary reports that provide deeper insights into how the generated images were perceived by human evaluators.
 
+
+## Future Work
+### Hugging Face Dataset
+We are currently working on creating a Hugging Face dataset that will make it easier for researchers and developers to access and utilize the Prompt2Fashion dataset. The dataset on Hugging Face will include the images, their corresponding descriptions, and metadata, allowing for seamless integration with machine learning frameworks and tools.
+
+Stay tuned for updates on the release of this dataset!
+
+### Excel Guide
+To further assist users in navigating and utilizing the Prompt2Fashion dataset, we will also provide an Excel guide. This guide will combine the descriptions and images, offering a convenient way to explore the dataset. Each entry in the Excel file will include:
+
+- The generated image.
+- The associated description.
+- Metadata such as model used (Mistral or Falcon), style category, and evaluation scores (where applicable).
+  
+
 ## Citation
 
 If you use this dataset in your research, please cite our paper:
