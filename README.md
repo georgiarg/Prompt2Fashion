@@ -25,10 +25,10 @@ Given that AI is making significant inroads into creative fields, it is crucial 
 
 As presented in the paper **"Automatic Generation of Fashion Images using Prompting in Generative Machine Learning Models"** the results of the two experiments can be summarized below:
 
-Images Evaluation
+- Images Evaluation
 ![1stexp](https://github.com/user-attachments/assets/f29bf462-797c-49a8-ae46-539ec517a2bf)
 
-Descriptions Evaluation
+- Descriptions Evaluation
 ![2ndexp](https://github.com/user-attachments/assets/d6c796f7-953b-494f-a16c-04b7cb82de5f)
 
 
@@ -38,7 +38,8 @@ For more detailed evaluation results, including individual survey responses and 
 
 
 ## Future Work
-### Hugging Face Dataset
+### Hugging Face Dataset 🤗
+
 We are currently working on creating a Hugging Face dataset that will make it easier for researchers and developers to access and utilize the Prompt2Fashion dataset. The dataset on Hugging Face will include the images, their corresponding descriptions, and metadata, allowing for seamless integration with machine learning frameworks and tools.
 
 Stay tuned for updates on the release of this dataset!
